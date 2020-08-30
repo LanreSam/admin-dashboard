@@ -121,3 +121,8 @@ body{
 /* end of card */
 
 
+/* Task list */
+.task-border{
+    border-left: 3px solid #f66436;
+}
+/* End of Task list */

@@ -24,10 +24,10 @@
                 <div class="row">
                     <!-- Sidebar -->
                     <div class="col-xl-2 col-lg-3 col-md-4 sidebar fixed-top">
-                        <a href="" class="navbar-brand text-white d-block mx-auto text-center py-3 mb-4 bottom-border">CodeandCreate</a>
+                        <a href="" class="navbar-brand text-white d-block mx-auto text-center py-3 mb-4 bottom-border">CreativeCoder</a>
                         <div class="border-bottom pb-3">
                             <img src="images/lanre.jpg" alt="Admin" width="60" class="rounded mr-3">
-                            <a href="#" class="text-white">Ezeche L. Samuel</a>
+                            <a href="https://lanresam.ml" class="text-white">Ezeche L. Samuel</a>
                         </div>
                         <ul class="navbar-nav flex-column mt-4">
                             <li class="nav-item"><a href="#" class="nav-link text-white p-3 mb-2 current"><img src="images/dashboard.png" width="30" class="mr-3"> Dashboard</a></li>
@@ -92,6 +92,12 @@
         </div>
     </div>
     <!--modal-->
+
+    <!--small screen text-->
+    <div class="text-center ml-auto d-block d-sm-none">
+        <p class="display-4 bg-dark text-light p-4 mb-0 mt-1">Welcome</p>
+    </div>
+    <!--end of small screen text-->
 
     <!--Cards-->
     <section>
@@ -179,8 +185,8 @@
         <div class="container-fluid">
             <div class="row mb-5">
                 <div class="col-xl-10 col-lg-9 col-md-8 ml-auto">
-                    <div class="row">
-                        <div class="col-12">
+                    <div class="row align-item-center">
+                        <div class="col-xl-6 mb-4 mb-xl-0">
                             <h3 class="text-center text-muted mb-3">Staff Salary</h3>
                             <table class="table table-striped bg-light text-center">
                                 <thead>
@@ -238,7 +244,7 @@
                                             <span>&laquo;</span>
                                         </a>
                                     </li>
-                                    <li class="page-item">
+                                    <li class="page-item active">
                                         <a href="#" class="page-link py-2 px-3">
                                             1
                                         </a>
@@ -262,8 +268,88 @@
                             </nav>
                             <!--end of Pagination-->
                         </div>
-                        <div class="col-12">
-                            
+
+                        <div class="col-xl-6">
+                            <h3 class="text-center text-muted mb-3">Recent payment</h3>
+                            <table class="table table-dark table-hover text-center">
+                                <thead>
+                                    <tr class="text-muted">
+                                        <th>#</th>
+                                        <th>Name</th>
+                                        <th>Price</th>
+                                        <th>Date</th>
+                                        <th>Status</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <th>1</th>
+                                        <td>James</td>
+                                        <td>#200,000</td>
+                                        <td>Aug-13-2020</td>
+                                        <td><span class="badge badge-danger w-75 py-2">Pending</span></td>
+                                    </tr>
+                                    <tr>
+                                        <th>2</th>
+                                        <td>PrinceWill</td>
+                                        <td>#150,000</td>
+                                        <td>Aug-13-2020</td>
+                                        <td><span class="badge badge-success w-75 py-2">Approved</span></td>
+                                    </tr>
+                                    <tr>
+                                        <th>3</th>
+                                        <td>Godwin</td>
+                                        <td>#100,000</td>
+                                        <td>Aug-13-2020</td>
+                                        <td><span class="badge badge-danger w-75 py-2">Pending</span></td>
+                                    </tr>
+                                    <tr>
+                                        <th>4</th>
+                                        <td>John</td>
+                                        <td>#90,000</td>
+                                        <td>Aug-13-2020</td>
+                                        <td><span class="badge badge-success w-75 py-2">Approved</span></td>
+                                    </tr>
+                                    <tr>
+                                        <th>5</th>
+                                        <td>Damilola</td>
+                                        <td>#80,000</td>
+                                        <td>Aug-13-2020</td>
+                                        <td><span class="badge badge-success w-75 py-2">Approved</span></td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                            <!--Pagination-->
+                            <nav>
+                                <ul class="pagination justify-content-center">
+                                    <li class="page-item">
+                                        <a href="#" class="page-link py-2 px-3">
+                                            <span>Previous</span>
+                                        </a>
+                                    </li>
+                                    <li class="page-item">
+                                        <a href="#" class="page-link py-2 px-3">
+                                            1
+                                        </a>
+                                    </li>
+                                    <li class="page-item active">
+                                        <a href="#" class="page-link py-2 px-3">
+                                            2
+                                        </a>
+                                    </li>
+                                    <li class="page-item">
+                                        <a href="#" class="page-link py-2 px-3">
+                                            3
+                                        </a>
+                                    </li>
+                                    <li class="page-item">
+                                        <a href="#" class="page-link py-2 px-3">
+                                            <span>Next</span>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </nav>
+                            <!--end of Pagination-->
                         </div>
                     </div>
 
@@ -272,6 +358,286 @@
         </div>
     </section>
     <!--end of tables-->
+
+    <!--Progress task list-->
+    <section>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-xl-10 col-lg-9 col-md-8 ml-auto">
+                    <div class="row mb-4 align-items-center">
+                        <div class="col-xl-6 col-12 mb-4 mb-xl-0">
+                            <div class="bg-dark text-white p-4 rounded">
+                                <h4 class="mb-5">Conversion Rates</h4>
+                                <h6 class="mb-3">Google chrome</h6>
+                                <div class="progress mb-4" style="height: 20px;">
+                                    <div class="progress-bar progress-bar-striped font-weight-bold" style="width: 91%;">
+                                        91%
+                                    </div>
+                                </div>
+                                <h6 class="mb-3">Mozilla Firefox</h6>
+                                <div class="progress mb-4" style="height: 20px;">
+                                    <div class="progress-bar progress-bar-striped font-weight-bold bg-success" style="width: 82%;">
+                                        82%
+                                    </div>
+                                </div>
+                                <h6 class="mb-3">Safari</h6>
+                                <div class="progress mb-4" style="height: 20px;">
+                                    <div class="progress-bar progress-bar-striped font-weight-bold bg-danger" style="width: 67%;">
+                                        67%
+                                    </div>
+                                </div>
+                                <h6 class="mb-3">IE</h6>
+                                <div class="progress mb-4" style="height: 20px;">
+                                    <div class="progress-bar progress-bar-striped font-weight-bold bg-info" style="width: 15%;">
+                                        15%
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-6 col-12">
+                            <h4 class="text-muted p-3 mb-3">Tasks</h4>
+                            <div class="container-fluid bg-white">
+                                <div class="row py-3 mb-4 task-border align-items-center">
+                                    <div class="col-1">
+                                        <input type="checkbox" checked>
+                                    </div>
+                                    <div class="col-sm-9 col-8">
+                                        Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                                    </div>
+                                    <div class="col-1">
+                                        <a href="#" data-toggle="tooltip" title="edit"><img src="images/edit.png" alt=""></a>
+                                    </div>
+                                    <div class="col-1">
+                                        <a href="#" data-toggle="tooltip" title="delete"><img src="images/delete.png" alt=""></a>
+                                    </div>
+                                </div>
+                            </div><!--end-->
+                            <div class="container-fluid bg-white">
+                                <div class="row py-3 mb-4 task-border align-items-center">
+                                    <div class="col-1">
+                                        <input type="checkbox" checked>
+                                    </div>
+                                    <div class="col-sm-9 col-8">
+                                        Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                                    </div>
+                                    <div class="col-1">
+                                        <a href="#" data-toggle="tooltip" title="edit"><img src="images/edit.png" alt=""></a>
+                                    </div>
+                                    <div class="col-1">
+                                        <a href="#" data-toggle="tooltip" title="delete"><img src="images/delete.png" alt=""></a>
+                                    </div>
+                                </div>
+                            </div><!--end-->
+                            <div class="container-fluid bg-white">
+                                <div class="row py-3 mb-4 task-border align-items-center">
+                                    <div class="col-1">
+                                        <input type="checkbox" checked>
+                                    </div>
+                                    <div class="col-sm-9 col-8">
+                                        Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                                    </div>
+                                    <div class="col-1">
+                                        <a href="#" data-toggle="tooltip" title="edit"><img src="images/edit.png" alt=""></a>
+                                    </div>
+                                    <div class="col-1">
+                                        <a href="#" data-toggle="tooltip" title="delete"><img src="images/delete.png" alt=""></a>
+                                    </div>
+                                </div>
+                            </div><!--end-->
+                            <div class="container-fluid bg-white">
+                                <div class="row py-3 mb-4 task-border align-items-center">
+                                    <div class="col-1">
+                                        <input type="checkbox" checked>
+                                    </div>
+                                    <div class="col-sm-9 col-8">
+                                        Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                                    </div>
+                                    <div class="col-1">
+                                        <a href="#" data-toggle="tooltip" title="edit"><img src="images/edit.png" alt=""></a>
+                                    </div>
+                                    <div class="col-1">
+                                        <a href="#" data-toggle="tooltip" title="delete"><img src="images/delete.png" alt=""></a>
+                                    </div>
+                                </div>
+                            </div><!--end-->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--end of Progress task list-->
+
+    <!--activities / quick post-->
+    <section>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-xl-10 col-lg-9 col-md-8 ml-auto">
+                    <div class="row align-items-center mb-5">
+                        <div class="col-xl-7">
+                            <h4 class="text-muted mb-4">Recent customers activities</h4>
+                            <div id="accordion">
+                                <div class="card">
+                                    <div class="card-header">
+                                        <button class="btn btn-block btn-secondary text-light text-left" data-toggle="collapse" data-target="#collapse-one">
+                                            <img src="images/David.jpg" width="50" class="mr-3 rounded">
+                                            David posted a new comment.
+                                        </button>
+                                    </div>
+                                    <div class="collapse show" id="collapse-one" data-parent="#accordion">
+                                        <div class="card-body">
+                                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Provident quas esse nisi itaque 
+                                            porro totam accusantium perspiciatis molestiae nesciunt vitae.
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="card">
+                                    <div class="card-header">
+                                        <button class="btn btn-block btn-secondary text-light text-left" data-toggle="collapse" data-target="#collapse-two">
+                                            <img src="images/clinton.jpg" width="50" class="mr-3 rounded">
+                                            Clinton posted a new comment.
+                                        </button>
+                                    </div>
+                                    <div class="collapse" id="collapse-two" data-parent="#accordion">
+                                        <div class="card-body">
+                                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Provident quas esse nisi itaque 
+                                            porro totam accusantium perspiciatis molestiae nesciunt vitae.
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="card">
+                                    <div class="card-header">
+                                        <button class="btn btn-block btn-secondary text-light text-left" data-toggle="collapse" data-target="#collapse-3">
+                                            <img src="images/emma.jpg" width="50" class="mr-3 rounded">
+                                            Emmanuel posted a new comment.
+                                        </button>
+                                    </div>
+                                    <div class="collapse" id="collapse-3" data-parent="#accordion">
+                                        <div class="card-body">
+                                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Provident quas esse nisi itaque 
+                                            porro totam accusantium perspiciatis molestiae nesciunt vitae.
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="card">
+                                    <div class="card-header">
+                                        <button class="btn btn-block btn-secondary text-light text-left" data-toggle="collapse" data-target="#collapse-4">
+                                            <img src="images/kelvin.jpg" width="50" class="mr-3 rounded">
+                                            Kelvin posted a new comment.
+                                        </button>
+                                    </div>
+                                    <div class="collapse" id="collapse-4" data-parent="#accordion">
+                                        <div class="card-body">
+                                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Provident quas esse nisi itaque 
+                                            porro totam accusantium perspiciatis molestiae nesciunt vitae.
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="card">
+                                    <div class="card-header">
+                                        <button class="btn btn-block btn-secondary text-light text-left" data-toggle="collapse" data-target="#collapse-5">
+                                            <img src="images/bola.jpg" width="50" class="mr-3 rounded">
+                                            Bolarinwa posted a new comment.
+                                        </button>
+                                    </div>
+                                    <div class="collapse" id="collapse-5" data-parent="#accordion">
+                                        <div class="card-body">
+                                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Provident quas esse nisi itaque 
+                                            porro totam accusantium perspiciatis molestiae nesciunt vitae.
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-5 mt-5">
+                            <div class="card rounded">
+                                <div class="card-body">
+                                    <h5 class="text-muted text-center mb-4">Quick Status Post</h5>
+                                    <ul class="list-inline text-center py-3">
+                                        <li class="list-inline-item mr-4">
+                                            <a href="#">
+                                                <img src="images/pencil.png" width="20">
+                                                <span class="h6 text-muted">Status</span>
+                                            </a>
+                                        </li>
+                                        <li class="list-inline-item mr-4">
+                                            <a href="#">
+                                                <img src="images/camera.png" width="20">
+                                                <span class="h6 text-muted">Photos</span>
+                                            </a>
+                                        </li>
+                                        <li class="list-inline-item">
+                                            <a href="#">
+                                                <img src="images/marker.png" width="20">
+                                                <span class="h6 text-muted">Ckeck-in</span>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                    <form>
+                                        <div class="form-group">
+                                            <input type="text" class="form-control py-2 mb-3" placeholder="What's your status?..">
+                                            <button type="button" class="btn btn-block font-weight-bold btn-info text-uppercase py-2 mb-5">Submit post</button>
+                                        </div>
+                                    </form>
+                                    <div class="row">
+                                        <div class="col-6">
+                                            <div class="card bg-light">
+                                                <img src="images/calender.png" class="d-block m-auto py-3">
+                                                <div class="card-body">
+                                                    <p class="card-text text-center font-weight-bold text-uppercase">Tue, Aug 25</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-6">
+                                            <div class="card bg-light">
+                                                <img src="images/clock.png" class="d-block m-auto py-3">
+                                                <div class="card-body">
+                                                    <p class="card-text text-center font-weight-bold text-uppercase">3:50am</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--end of activities / quick post-->
+
+    <!--footer-->
+    <footer class="bg-dark text-light">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-xl-10 col-lg-9 col-md-8 ml-auto">
+                    <div class="row border-top pt-3">
+                        <div class="col-lg-6 text-center">
+                            <ul class="list-inline">
+                                <li class="list-inline-item mr-2">
+                                    <a href="#" class="text-light">CreativeCoder</a>
+                                </li>
+                                <li class="list-inline-item mr-2">
+                                    <a href="#" class="text-light">About</a>
+                                </li>
+                                <li class="list-inline-item mr-2">
+                                    <a href="#" class="text-light">Support</a>
+                                </li>
+                                <li class="list-inline-item mr-2">
+                                    <a href="#" class="text-light">Designer</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="col-lg-6 text-center">
+                            <p>&copy; 2020 copyright || Designed by <span><a href="https://lanresam.ml" class="text-info">Ezeche L.S</a></span> || made with <img src="images/heart.png" width="30"></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!--footer-->
 
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
